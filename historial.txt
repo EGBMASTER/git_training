@@ -1,0 +1,115 @@
+sjo@hA305-48-WLD-002:~$ pwd
+/home/sjo
+sjo@hA305-48-WLD-002:~$ mkdir Empresa
+sjo@hA305-48-WLD-002:~$ pwd
+/home/sjo
+sjo@hA305-48-WLD-002:~$ ls
+ Baixades    Empresa      lista    Plantilles   snap
+ Documents   Escriptori   llista   pt           Vídeos
+ empresa     Imatges      Música   Públic      'VirtualBox VMs'
+sjo@hA305-48-WLD-002:~$ cd Empresa/
+sjo@hA305-48-WLD-002:~/Empresa$ mkdir recursos humans
+sjo@hA305-48-WLD-002:~/Empresa$ mkdir presupostos
+sjo@hA305-48-WLD-002:~/Empresa$ mkdir direccio
+sjo@hA305-48-WLD-002:~/Empresa$ mkdir CM
+sjo@hA305-48-WLD-002:~/Empresa$ ls
+CM  direccio  humans  presupostos  recursos
+sjo@hA305-48-WLD-002:~/Empresa$ cd recursos humans/
+bash: cd: sobren arguments
+sjo@hA305-48-WLD-002:~/Empresa$ cd recursos
+sjo@hA305-48-WLD-002:~/Empresa/recursos$  touch Enric
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ touch URSS
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ touch Kalin
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ echo"director de recursos humans, encarregat de gestionar l'empresa y negociar amb l'asesoria externa que tenim contractada">>Enric
+echodirector de recursos humans, encarregat de gestionar l'empresa y negociar amb l'asesoria externa que tenim contractada: no s'ha trobat l'ordre
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ echo "director de recursos humans, encarregat de gestionar l'empresa y negociar amb l'asesoria externa que tenim contractada">>Enric
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ cat Enric
+director de recursos humans, encarregat de gestionar l'empresa y negociar amb l'asesoria externa que tenim contractada
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ echo " Empresa rusa externa que tenim contractada per l'asesorament de la nostra fiabilidad publica respecta els nostres treballadors">> URSS
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ Cat URSS
+
+No s'ha trobat l'ordre 'Cat', volíeu dir:
+
+  l'ordre 'iat' del deb iat (0.1.3-7build1)
+  l'ordre 'pat' del deb dist (1:3.5-236-0.1build1)
+  l'ordre 'at' del deb at (3.1.23-1ubuntu1)
+  l'ordre 'cat' del deb coreutils (8.30-3ubuntu2)
+  l'ordre 'bat' del deb bacula-console-qt (9.4.2-2ubuntu5)
+  l'ordre 'dat' del deb liballegro4-dev (2:4.4.3.1-1)
+
+Proveu: apt install <nom del deb>
+
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ cat URSS
+ Empresa rusa externa que tenim contractada per l'asesorament de la nostra fiabilidad publica respecta els nostres treballadors
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ echo "representant de la empresa URSS respecta la nostra empresa, persona metodica i fiable, disponibilitat de 6h fins 15h" >> Kalin
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ cd empresa/
+bash: cd: empresa/: El fitxer o directori no existeix
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ cd Empresa
+bash: cd: Empresa: El fitxer o directori no existeix
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ cd Empresa/
+bash: cd: Empresa/: El fitxer o directori no existeix
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ cd /Empresa
+bash: cd: /Empresa: El fitxer o directori no existeix
+sjo@hA305-48-WLD-002:~/Empresa/recursos$ cd
+sjo@hA305-48-WLD-002:~$ sl
+
+No s'ha trobat l'ordre 'sl', però pot ser instal·lada amb:
+
+apt install sl
+Pregunteu al vostre administrador.
+
+sjo@hA305-48-WLD-002:~$ ls
+ Baixades   Documents   empresa   Empresa   Escriptori   Imatges   lista   llista   Música   Plantilles   pt   Públic   snap   Vídeos  'VirtualBox VMs'
+sjo@hA305-48-WLD-002:~$ cd Empresa
+sjo@hA305-48-WLD-002:~/Empresa$ ls
+CM  direccio  humans  presupostos  recursos
+sjo@hA305-48-WLD-002:~/Empresa$ rmdir CM
+sjo@hA305-48-WLD-002:~/Empresa$ rmdir humans/
+sjo@hA305-48-WLD-002:~/Empresa$ ls
+direccio  presupostos  recursos
+sjo@hA305-48-WLD-002:~/Empresa$ rmdir direccio/
+sjo@hA305-48-WLD-002:~/Empresa$ ls
+presupostos  recursos
+sjo@hA305-48-WLD-002:~/Empresa$ cd presupostos/
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ touch balanç 2019
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ touch balanç 2020
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ ls
+2019  2020  balanç
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ rm balanç
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ rm 2019
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ rm 2020
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ touch balanç2019
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ touch balanç2020
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ ls
+balanç2019  balanç2020
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ echo " hhtp//www.presupostempresa.NacionsUnides.es" >> balanç2019
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ echo 2 hhtp//www.presupostempresa.NacionsAnarquicas.es" >> balanç2020
+> cd
+> pwd
+> fjjf
+> ^C
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ echo "hhtp//www.presupostempresa.NacionsAnrquicas.es" >> balanç2020
+sjo@hA305-48-WLD-002:~/Empresa/presupostos$ cd
+sjo@hA305-48-WLD-002:~$ ls
+ Baixades   Documents   empresa   Empresa   Escriptori   Imatges   lista   llista   Música   Plantilles   pt   Públic   snap   Vídeos  'VirtualBox VMs'
+sjo@hA305-48-WLD-002:~$ cd Empresa/
+sjo@hA305-48-WLD-002:~/Empresa$ ls recursos/ > recursos.txt
+sjo@hA305-48-WLD-002:~/Empresa$ ls presupostos/ > presupostos.txt
+sjo@hA305-48-WLD-002:~/Empresa$ touch history.txt
+sjo@hA305-48-WLD-002:~/Empresa$ ls
+history.txt  presupostos  presupostos.txt  recursos  recursos.txt
+sjo@hA305-48-WLD-002:~/Empresa$ ls history > history.txt
+ls: no s’ha pogut accedir a 'history': El fitxer o directori no existeix
+sjo@hA305-48-WLD-002:~/Empresa$ tar-zcvfEnric_Guillot_feina.tar.gzEmpresa
+tar-zcvfEnric_Guillot_feina.tar.gzEmpresa: no s'ha trobat l'ordre
+sjo@hA305-48-WLD-002:~/Empresa$ cd
+sjo@hA305-48-WLD-002:~$ tar-zcvfEnric_Guillot_feina.tar.gzEmpresa
+tar-zcvfEnric_Guillot_feina.tar.gzEmpresa: no s'ha trobat l'ordre
+sjo@hA305-48-WLD-002:~$ ls
+ Baixades   Documents   empresa   Empresa   Escriptori   Imatges   lista   llista   Música   Plantilles   pt   Públic   snap   Vídeos  'VirtualBox VMs'
+sjo@hA305-48-WLD-002:~$ tar-zcvfEnric_Guillot_feina.tar.gz Empresa/
+tar-zcvfEnric_Guillot_feina.tar.gz: no s'ha trobat l'ordre
+sjo@hA305-48-WLD-002:~$ tar-zcvf Enric_Guillot_feina.tar.gz Empresa/
+tar-zcvf: no s'ha trobat l'ordre
+sjo@hA305-48-WLD-002:~$ ^C
+sjo@hA305-48-WLD-002:~$
